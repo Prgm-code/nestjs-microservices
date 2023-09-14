@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+npm-debug.log
+
+# IDEs y editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# NestJS
+dist/
+.env
+
+# Microservicios - es posible que necesites ajustar estos según la estructura específica de tus microservicios
+**/node_modules/
+**/dist/
+**/.env
+
+# Otros
+*.log
+*.swp
+*.bak
+*.tmp
+*~
